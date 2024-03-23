@@ -1,0 +1,105 @@
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Raleway", sans-serif
+}
+
+h1 {
+    white-space: nowrap;
+}
+
+em {
+    color: blue;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#Verona-nei-secoli {
+    font-size: 26px;
+    color: rgba(112, 112, 7, 0.756);
+}
+
+.title {
+    padding-top: 25px;
+    padding-left: 25px;
+    float: inline-end;
+    font-family: 'Ancient', sans-serif;
+    font-size: 60pt;
+    font-weight: lighter;
+}
+
+.title-word {
+    animation: color-animation 10s linear infinite;
+}
+
+.title-word-1 {
+    --color-1: #DF8453;
+    --color-2: #3D8DAE;
+    --color-3: #E4A9A8;
+}
+
+.title-word-2 {
+    --color-1: #DBAD4A;
+    --color-2: #ACCFCB;
+    --color-3: #17494D;
+}
+
+.title-word-3 {
+    --color-1: #ACCFCB;
+    --color-2: #E4A9A8;
+    --color-3: #ACCFCB;
+}
+
+.title-word-4 {
+    --color-1: #3D8DAE;
+    --color-2: #DF8453;
+    --color-3: #E4A9A8;
+}
+
+@keyframes color-animation {
+    0% {
+        color: var(--color-1)
+    }
+
+    32% {
+        color: var(--color-1)
+    }
+
+    33% {
+        color: var(--color-2)
+    }
+
+    65% {
+        color: var(--color-2)
+    }
+
+    66% {
+        color: var(--color-3)
+    }
+
+    99% {
+        color: var(--color-3)
+    }
+
+    100% {
+        color: var(--color-1)
+    }
+}
+    
+
+@media(max-width: 1480px) {
+    .title {
+      font-size: 48pt;
+      padding-right: 5px;
+      padding-left: 35px;
+      padding-top: 0;
+      padding-bottom: 0;
+    }
+header img {
+    display: none;
+}    
+}
+

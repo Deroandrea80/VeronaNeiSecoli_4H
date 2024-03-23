@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Verona nei secoli</title>
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.cdnfonts.com/css/ancient" rel="stylesheet">
+</head>
+
+<body class="w3-light-grey w3-content" style="max-width:1600px">
+
+    <!-- Sidebar/menu -->
+    <nav class="w3-sidebar w3-collapse w3-animate-left"
+        style="z-index:3;width:300px; background-color: rgb(237, 243, 244);" id="mySidebar"><br>
+        <div class="w3-container">
+            <a href="#" onclick="w3_close()" class="w3-hide-large w3-right w3-jumbo w3-padding w3-hover-grey"
+                title="close menu">
+                <i class="fa fa-remove"></i>
+            </a>
+            <img src="images/StemmaMontecchi.png" style="width:35%;" class="w3-round"><img
+                src="images/StemmaCapuleti.png" style="width:35%;" class="w3-round"><img
+                src="images/StemmaAlighieri.png" style="width:25%;" class="w3-round"><br><br>
+            <h4><b id="Verona-nei-secoli">VERONA NEI SECOLI</b></h4>
+            <h4><b>Presenza di <em>Dante</em> e <em>Shakespeare</em> a Verona</b></h4>
+        </div>
+        <div class="w3-bar-block">
+            <a href="index.html" onclick="w3_close()" class="w3-bar-item w3-button w3-padding w3-text-teal"><i
+                    class="uil uil-map-marker"></i> Home</a>
+            <a href="cangrande.html" onclick="w3_close()" class="w3-bar-item w3-button w3-padding w3-text-teal"><i
+                    class="uil uil-map-marker"></i> Cangrande</a>
+            <a href="chiesaDiSantElena.html" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i
+                    class="uil uil-map-marker"></i> Chiesa di Sant'Elena</a>
+            <a href="piazzaDeiSignori.html" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i
+                    class="uil uil-map-marker"></i> Piazza dei Signori</a>
+            <a href="#Tomba e casa di Giulietta" onclick="w3_close()"
+                class="w3-bar-item w3-button w3-padding w3-text-teal"><i class="uil uil-map-marker"></i> Tomba e casa di
+                Giulietta</a>
+            <a href="piazzaBra.html" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i
+                    class="uil uil-map-marker"></i> Piazza Bra</a>
+            <a href="palazzoCangrande.html" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i
+                    class="uil uil-map-marker"></i> Palazzo Cangrande</a>
+        </div>
+        <div class="w3-panel w3-large">
+            <i class="fa fa-facebook-official w3-hover-opacity"></i>
+            <i class="fa fa-instagram w3-hover-opacity"></i>
+            <i class="fa fa-snapchat w3-hover-opacity"></i>
+            <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+            <i class="fa fa-twitter w3-hover-opacity"></i>
+            <i class="fa fa-linkedin w3-hover-opacity"></i>
+        </div>
+        <img src="images/CasaDiGiulietta/ShakespeareTeschio.jpg" alt="" style="width: 100%;">
+    </nav>
+
+    <!-- Overlay effect when opening sidebar on small screens -->
+    <div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor:pointer"
+        title="close side menu" id="myOverlay"></div>
+
+    <!-- !PAGE CONTENT! -->
+    <div class="w3-main" style="margin-left:300px">
+
+        <!-- Header -->
+        <header>
+            <span class="w3-button w3-hide-large w3-xxlarge w3-hover-text-grey" onclick="w3_open()"><i
+                    class="fa fa-bars"></i></span>
+                    <div class="w3-container" style="background-color: rgb(225, 233, 240); display: flex; justify-content: space-between; max-width: 100%;">
+                        <div class="animation">
+                            <button onclick="history.back()" style="background-color: transparent; border: none;">
+                                <img class="animation--Gl63I"
+                                    srcset="images/gif/ManWalkBack.webp 1x, images/gif/ManWalkBack.webp 2x"
+                                    src="images/gif/ManWalkBack.webp" alt="Medievale, Uomo, 3D, Freccia"
+                                    style="max-width: 480px; max-height: 270px; margin: 20px; border-radius: 35%; cursor: pointer;">
+                            </button>
+                        </div>
+        
+        
+                        <h1 class="title">
+                            <span class="title-word title-word-1">CAN</span><span class="title-word title-word-2">GR</span><span
+                                class="title-word title-word-3">AN</span><span class="title-word title-word-4">DE</span>
+                        </h1>
+        
+                        <div class="animation">
+                            <button onclick="history.forward()" style="background-color: transparent; border: none;">
+                                <img id="go-forward" class="animation--Gl63I"
+                                    srcset="images/gif/ManWalkForward.webp 1x, images/gif/ManWalkForward.webp 2x"
+                                    src="images/gif/ManWalkForward.webp" alt="Medievale, Uomo, 3D, Freccia"
+                                    style="max-width: 480px; max-height: 270px; margin: 20px; border-radius: 35%; cursor: pointer;">
+                            </button>
+                        </div>
+                    </div>
+            <div class="w3-section w3-bottombar w3-padding-10"></div>
+        </header>
+
+        <!-- First Photo Grid-->
+        <div class="w3-row-padding">
+            <div class="w3-third w3-container w3-margin-bottom">
+                <img src="#" alt="image casa di Giulietta" style="width:100%" class="w3-hover-opacity">
+                <div class="w3-container w3-white">
+                    <p><b>Lorem ipsum dolor sit amet consectetur.</b></p>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Esse labore quae doloribus molestias
+                        tempore velit nisi dicta, quos corrupti mollitia cumque id nemo earum. Voluptas veniam quisquam
+                        magnam, quos ad inventore odit pariatur ullam qui? Deserunt tempore reprehenderit accusamus non
+                        velit ratione, illo ipsum qui facilis fugiat ea, nam accusantium voluptatum unde architecto
+                        enim, repudiandae iste in? Itaque rem earum expedita tempore? Laborum quisquam pariatur neque
+                        harum nesciunt sequi consectetur maiores molestias repellat itaque, alias a, minus sapiente
+                        ipsum quam nostrum. Quis nemo sed necessitatibus impedit obcaecati ad. Odio debitis error
+                        corrupti voluptatem animi nulla incidunt amet iusto, accusamus eligendi!</p>
+                </div>
+            </div>
+            <div class="w3-third w3-container w3-margin-bottom">
+                <img src="#" alt="image casa di Giulietta" style="width:100%" class="w3-hover-opacity">
+                <div class="w3-container w3-white">
+                    <p><b>Lorem ipsum dolor sit amet consectetur.</b></p>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Esse labore quae doloribus molestias
+                        tempore velit nisi dicta, quos corrupti mollitia cumque id nemo earum. Voluptas veniam quisquam
+                        magnam, quos ad inventore odit pariatur ullam qui? Deserunt tempore reprehenderit accusamus non
+                        velit ratione, illo ipsum qui facilis fugiat ea, nam accusantium voluptatum unde architecto
+                        enim, repudiandae iste in? Itaque rem earum expedita tempore? Laborum quisquam pariatur neque
+                        harum nesciunt sequi consectetur maiores molestias repellat itaque, alias a, minus sapiente
+                        ipsum quam nostrum. Quis nemo sed necessitatibus impedit obcaecati ad. Odio debitis error
+                        corrupti voluptatem animi nulla incidunt amet iusto, accusamus eligendi!</p>
+                </div>
+            </div>
+            <div class="w3-third w3-container">
+                <img src="#" alt="image casa di Giulietta" style="width:100%" class="w3-hover-opacity">
+                <div class="w3-container w3-white">
+                    <p><b>Lorem ipsum dolor sit amet consectetur.</b></p>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Esse labore quae doloribus molestias
+                        tempore velit nisi dicta, quos corrupti mollitia cumque id nemo earum. Voluptas veniam quisquam
+                        magnam, quos ad inventore odit pariatur ullam qui? Deserunt tempore reprehenderit accusamus non
+                        velit ratione, illo ipsum qui facilis fugiat ea, nam accusantium voluptatum unde architecto
+                        enim, repudiandae iste in? Itaque rem earum expedita tempore? Laborum quisquam pariatur neque
+                        harum nesciunt sequi consectetur maiores molestias repellat itaque, alias a, minus sapiente
+                        ipsum quam nostrum. Quis nemo sed necessitatibus impedit obcaecati ad. Odio debitis error
+                        corrupti voluptatem animi nulla incidunt amet iusto, accusamus eligendi!</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Second Photo Grid-->
+        <div class="w3-row-padding">
+            <div class="w3-third w3-container w3-margin-bottom">
+                <img src="#" alt="image casa di Giulietta" style="width:100%" class="w3-hover-opacity">
+                <div class="w3-container w3-white">
+                    <p><b>Lorem ipsum dolor sit amet consectetur.</b></p>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Esse labore quae doloribus molestias
+                        tempore velit nisi dicta, quos corrupti mollitia cumque id nemo earum. Voluptas veniam quisquam
+                        magnam, quos ad inventore odit pariatur ullam qui? Deserunt tempore reprehenderit accusamus non
+                        velit ratione, illo ipsum qui facilis fugiat ea, nam accusantium voluptatum unde architecto
+                        enim, repudiandae iste in? Itaque rem earum expedita tempore? Laborum quisquam pariatur neque
+                        harum nesciunt sequi consectetur maiores molestias repellat itaque, alias a, minus sapiente
+                        ipsum quam nostrum. Quis nemo sed necessitatibus impedit obcaecati ad. Odio debitis error
+                        corrupti voluptatem animi nulla incidunt amet iusto, accusamus eligendi!</p>
+                </div>
+            </div>
+
+            <div class="w3-third w3-container w3-margin-bottom">
+                <img src="#" alt="image casa di Giulietta" style="width:100%" class="w3-hover-opacity">
+                <div class="w3-container w3-white">
+                    <p><b>Lorem ipsum dolor sit amet consectetur.</b></p>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Esse labore quae doloribus molestias
+                        tempore velit nisi dicta, quos corrupti mollitia cumque id nemo earum. Voluptas veniam quisquam
+                        magnam, quos ad inventore odit pariatur ullam qui? Deserunt tempore reprehenderit accusamus non
+                        velit ratione, illo ipsum qui facilis fugiat ea, nam accusantium voluptatum unde architecto
+                        enim, repudiandae iste in? Itaque rem earum expedita tempore? Laborum quisquam pariatur neque
+                        harum nesciunt sequi consectetur maiores molestias repellat itaque, alias a, minus sapiente
+                        ipsum quam nostrum. Quis nemo sed necessitatibus impedit obcaecati ad. Odio debitis error
+                        corrupti voluptatem animi nulla incidunt amet iusto, accusamus eligendi!</p>
+                </div>
+            </div>
+
+            <div class="w3-third w3-container">
+                <img src="#" alt="image casa di Giulietta" style="width:100%" class="w3-hover-opacity">
+                <div class="w3-container w3-white">
+                    <p><b>Lorem ipsum dolor sit amet consectetur.</b></p>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Esse labore quae doloribus molestias
+                        tempore velit nisi dicta, quos corrupti mollitia cumque id nemo earum. Voluptas veniam quisquam
+                        magnam, quos ad inventore odit pariatur ullam qui? Deserunt tempore reprehenderit accusamus non
+                        velit ratione, illo ipsum qui facilis fugiat ea, nam accusantium voluptatum unde architecto
+                        enim, repudiandae iste in? Itaque rem earum expedita tempore? Laborum quisquam pariatur neque
+                        harum nesciunt sequi consectetur maiores molestias repellat itaque, alias a, minus sapiente
+                        ipsum quam nostrum. Quis nemo sed necessitatibus impedit obcaecati ad. Odio debitis error
+                        corrupti voluptatem animi nulla incidunt amet iusto, accusamus eligendi!</p>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Pagination -->
+        <div class="w3-center w3-padding-32">
+            <div class="w3-bar">
+                <a href="#" class="w3-bar-item w3-button w3-hover-black">«</a>
+                <a href="#" class="w3-bar-item w3-black w3-button">1</a>
+                <a href="#" class="w3-bar-item w3-button w3-hover-black">2</a>
+                <a href="#" class="w3-bar-item w3-button w3-hover-black">3</a>
+                <a href="#" class="w3-bar-item w3-button w3-hover-black">4</a>
+                <a href="#" class="w3-bar-item w3-button w3-hover-black">»</a>
+            </div>
+        </div>
+
+
+        <h4>Technical Skills</h4>
+        <!-- Progress bars / Skills -->
+        <p>Photography</p>
+        <div class="w3-grey">
+            <div class="w3-container w3-dark-grey w3-padding w3-center" style="width:95%">95%</div>
+        </div>
+        <p>Web Design</p>
+        <div class="w3-grey">
+            <div class="w3-container w3-dark-grey w3-padding w3-center" style="width:85%">85%</div>
+        </div>
+        <p>Photoshop</p>
+        <div class="w3-grey">
+            <div class="w3-container w3-dark-grey w3-padding w3-center" style="width:80%">80%</div>
+        </div>
+        <p>
+            <button class="w3-button w3-dark-grey w3-padding-large w3-margin-top w3-margin-bottom">
+                <i class="fa fa-download w3-margin-right"></i>Download Resume
+            </button>
+        </p>
+        <hr>
+
+        <!-- Contact Section -->
+        <div class="w3-container w3-padding-large w3-grey">
+            <h4 id="contact"><b>Contact Me</b></h4>
+            <div class="w3-row-padding w3-center w3-padding-24" style="margin:0 -16px">
+                <div class="w3-third w3-dark-grey">
+                    <p><i class="fa fa-envelope w3-xxlarge w3-text-light-grey"></i></p>
+                    <p>email@email.com</p>
+                </div>
+                <div class="w3-third w3-teal">
+                    <p><i class="fa fa-map-marker w3-xxlarge w3-text-light-grey"></i></p>
+                    <p>Chicago, US</p>
+                </div>
+                <div class="w3-third w3-dark-grey">
+                    <p><i class="fa fa-phone w3-xxlarge w3-text-light-grey"></i></p>
+                    <p>512312311</p>
+                </div>
+            </div>
+            <hr class="w3-opacity">
+            <form action="/action_page.php" target="_blank">
+                <div class="w3-section">
+                    <label>Name</label>
+                    <input class="w3-input w3-border" type="text" name="Name" required>
+                </div>
+                <div class="w3-section">
+                    <label>Email</label>
+                    <input class="w3-input w3-border" type="text" name="Email" required>
+                </div>
+                <div class="w3-section">
+                    <label>Message</label>
+                    <input class="w3-input w3-border" type="text" name="Message" required>
+                </div>
+                <button type="submit" class="w3-button w3-black w3-margin-bottom"><i
+                        class="fa fa-paper-plane w3-margin-right"></i>Send Message</button>
+            </form>
+        </div>
+
+        <!-- Footer -->
+        <footer class="w3-container w3-padding-32 w3-dark-grey">
+            <div class="w3-row-padding">
+                <div class="w3-third">
+                    <h3>FOOTER</h3>
+                    <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae,
+                        ultricies congue gravida diam non fringilla.</p>
+                    <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+                </div>
+
+                <div class="w3-third">
+                    <h3>BLOG POSTS</h3>
+                    <ul class="w3-ul w3-hoverable">
+                        <li class="w3-padding-16">
+                            <img src="/w3images/workshop.jpg" class="w3-left w3-margin-right" style="width:50px">
+                            <span class="w3-large">Lorem</span><br>
+                            <span>Sed mattis nunc</span>
+                        </li>
+                        <li class="w3-padding-16">
+                            <img src="/w3images/gondol.jpg" class="w3-left w3-margin-right" style="width:50px">
+                            <span class="w3-large">Ipsum</span><br>
+                            <span>Praes tinci sed</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="w3-third">
+                    <h3>POPULAR TAGS</h3>
+                    <p>
+                        <span class="w3-tag w3-black w3-margin-bottom">Travel</span> <span
+                            class="w3-tag w3-grey w3-small w3-margin-bottom">New York</span> <span
+                            class="w3-tag w3-grey w3-small w3-margin-bottom">London</span>
+                        <span class="w3-tag w3-grey w3-small w3-margin-bottom">IKEA</span> <span
+                            class="w3-tag w3-grey w3-small w3-margin-bottom">NORWAY</span> <span
+                            class="w3-tag w3-grey w3-small w3-margin-bottom">DIY</span>
+                        <span class="w3-tag w3-grey w3-small w3-margin-bottom">Ideas</span> <span
+                            class="w3-tag w3-grey w3-small w3-margin-bottom">Baby</span> <span
+                            class="w3-tag w3-grey w3-small w3-margin-bottom">Family</span>
+                        <span class="w3-tag w3-grey w3-small w3-margin-bottom">News</span> <span
+                            class="w3-tag w3-grey w3-small w3-margin-bottom">Clothing</span> <span
+                            class="w3-tag w3-grey w3-small w3-margin-bottom">Shopping</span>
+                        <span class="w3-tag w3-grey w3-small w3-margin-bottom">Sports</span> <span
+                            class="w3-tag w3-grey w3-small w3-margin-bottom">Games</span>
+                    </p>
+                </div>
+
+            </div>
+        </footer>
+
+        <div class="w3-black w3-center w3-padding-24">Powered by <a href="https://www.w3schools.com/w3css/default.asp"
+                title="W3.CSS" target="_blank" class="w3-hover-opacity">w3.css</a></div>
+
+        <!-- End page content -->
+    </div>
+
+    <script type="text/javascript" src="js/script.js"></script>
+</body>
+
+</html>
