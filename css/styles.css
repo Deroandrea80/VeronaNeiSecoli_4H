@@ -16,6 +16,8 @@ h6 {
 
 }
 
+
+
 ul {
     line-height: 2em;
     list-style: none;
@@ -124,7 +126,7 @@ em {
     padding: 2px;
     float: inline-start;
     font-family: 'Ancient', sans-serif;
-    font-size: 60pt;
+    font-size: 48pt;
     font-weight: lighter;
     margin: auto;
 }
