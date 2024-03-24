@@ -129,6 +129,8 @@ em {
     font-size: 48pt;
     font-weight: lighter;
     margin: auto;
+    text-wrap: wrap;
+    text-align: center;
 }
 
 .title-word {
