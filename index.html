@@ -356,23 +356,30 @@
                 </div>
             </div>
             <hr class="w3-opacity">
-            <form action="/action_page.php" target="_blank">
+            <form name="modulo" enctype="text/plain">
                 <div class="w3-section">
                     <label>Cognome e Nome</label>
-                    <input class="w3-input w3-border" type="text" name="Name" placeholder="Rossi Francesco" required>
+                    <input class="w3-input w3-border" type="text" name="name" placeholder="Rossi Francesco" required>
                 </div>
                 <div class="w3-section">
                     <label>Email</label>
-                    <input class="w3-input w3-border" type="text" name="Email" placeholder="f.rossi@email.com" required>
+                    <input class="w3-input w3-border" type="text" name="email" placeholder="f.rossi@email.com" required>
+                </div>
+                <div class="w3-section">
+                    <label>Oggetto</label>
+                    <input class="w3-input w3-border" type="text" name="oggetto"
+                        placeholder="descrizione della tua richiesta" required>
                 </div>
                 <div class="w3-section">
                     <label>Message</label>
-                    <textarea class="w3-input w3-border" type="text" name="Message" cols="30" rows="10"
+                    <textarea class="w3-input w3-border" type="text" name="message" cols="30" rows="10"
                         required></textarea>
                 </div>
-                <button type="submit" class="w3-button w3-black w3-margin-bottom"><i
+                <button class="w3-button w3-black w3-margin-bottom" onclick="Modulo()"><i
                         class="fa fa-paper-plane w3-margin-right"></i>Send Message</button>
+
             </form>
+            <script type="text/javascript" src="js/scriptInvioEmail.js"></script>
         </div>
 
         <!-- Footer -->
@@ -410,7 +417,8 @@
                             <img src="images/Blog Post/Giulietta.jpg" class="w3-left w3-margin-right"
                                 style="width:50px">
                             <span class="w3-large">Giulietta e Romeo</span><br>
-                            <span class="w3-small">Il mito di Giulietta e Romeo viene celebrato in spettacoli teatrali e rivisitazioni
+                            <span class="w3-small">Il mito di Giulietta e Romeo viene celebrato in spettacoli teatrali e
+                                rivisitazioni
                                 durante tutto l’anno. La rassegna più famosa è il Festival shakespeariano che si svolge
                                 ogni estate al Teatro Romano, secondo in Europa dopo quello di Stratford on Avon.
 
@@ -421,9 +429,11 @@
                                 che i due innamorati si siano realmente conosciuti ed amati.</span>
                         </li>
                         <li class="w3-padding-16">
-                            <img src="images/Blog Post/Arte e Tradizione.jpg" class="w3-left w3-margin-right" style="width:50px">
+                            <img src="images/Blog Post/Arte e Tradizione.jpg" class="w3-left w3-margin-right"
+                                style="width:50px">
                             <span class="w3-large">Presepi e tradizioni</span><br>
-                            <span class="w3-small">Per tutta la durata delle feste natalizie si tiene la Rassegna Internazionale dei
+                            <span class="w3-small">Per tutta la durata delle feste natalizie si tiene la Rassegna
+                                Internazionale dei
                                 Presepi nell’Arte e nella Tradizione, allestita negli arcovoli dell’Arena.
                                 La mostra ospita ogni anno circa 400 esemplari provenienti dai più importanti musei
                                 internazionali e da collezioni private. L’allestimento è realizzato con suggestivi
@@ -477,5 +487,6 @@
     <script type="text/javascript" src="js/script.js"></script>
 
 </body>
+
 
 </html>
